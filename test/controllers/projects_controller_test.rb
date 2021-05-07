@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class ProjectsControllerTest < ActionDispatch::IntegrationTest
+  before_action :authenticate_user!
   setup do
     @project = projects(:one)
   end
