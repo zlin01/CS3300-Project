@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-gem 'devise_token_auth', github: 'lynndylanhurley/devise_token_auth'
+#gem 'devise_token_auth', github: 'lynndylanhurley/devise_token_auth'
 ruby '2.5.8'
 #gem 'devise'
+
+gem 'bootstrap', '~> 4.6.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.5'
 # Use sqlite3 as the database for Active Record
