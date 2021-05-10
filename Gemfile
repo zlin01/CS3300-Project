@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
+gem 'devise_token_auth', github: 'lynndylanhurley/devise_token_auth'
 ruby '2.5.8'
 #gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
